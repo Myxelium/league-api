@@ -1,0 +1,52 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 0fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "select-area select-area wallpaper wallpaper wallpaper wallpaper""select-area select-area wallpaper wallpaper wallpaper wallpaper""select-area select-area wallpaper wallpaper wallpaper wallpaper";
+}
+
+.select-area {
+  grid-area: select-area;
+  min-width: 380px;
+}
+
+.wallpaper {
+  grid-area: wallpaper;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body{
+  background: url(https://ryzzzen.github.io/manaflux/assets/themes/forest-bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgb(205, 190, 175);
+}
+form {
+  width: 50%;
+  min-width: 300px;
+  margin: 30px;
+
+}
+.main{
+  background-image: url(assets/bg_custom.png);
+  background-position: 30px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.select-area{
+  border-right: 1px solid rgb(120, 90, 40);
+}
+.border-top{
+  position: absolute;
+  top:0px;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(120, 90, 40);
+}
+
+
