@@ -1,4 +1,4 @@
-connection.php = Fyll in databas anslutningen
+connection.php = Fyll in databasanslutningen
 
 Importera api_heaven.com.sql till phpmyadmin. Den är direkt exporterad därifrån.
 
